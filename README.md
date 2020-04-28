@@ -27,7 +27,7 @@
 1. 우상단에 Money를 표시한다.
 2. 우측의 LV버튼을 터치하면 재화를 사용하여 강화한다.
 3. 슬라이드를 이용하여 Player의 state<->skill전환을 이루도록한다.
- 
+4. back키를 터치하면 Stage View로 이동한다.
  
  
 ==================================Planning========================================
@@ -38,5 +38,5 @@
 4. StateFile을 연동할 PlayerState View를 제작.
 5. 스테이지를 표시할 Stage View를 제작한다.
 6. Play View에 skill을 제작한다.
-7. Play View,PlayerState View, Stage View를 연결한다.
+7. Play View,PlayerState View, Stage View를 연결한다. ( Play <-> Stage <-> PlayerState )
 8. (추가사항) enemy의 종류를 추가한다.
